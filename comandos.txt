@@ -1,0 +1,13 @@
+# Correr docker
+docker run --name productos_db --rm -p 27018:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=toor -e MONGO_INITDB_DATABASE=productos_db -d mongo:4.2 --logpath /var/log/mongodb/mongod.log
+
+- npm init
+- crear folders conf, controllers, models, routes
+- npm install body-parser express mongoose cors
+- configurar parametros globales de la aplicacion (conf)
+- configurar acceso a la BD
+- Crear modelo Mongoose
+- Crear logica en controllers
+- Crear rutas en routes
+- Integrar componente en server.js
+
